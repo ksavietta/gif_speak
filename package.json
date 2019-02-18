@@ -1,0 +1,32 @@
+{
+  "name": "gif_speak",
+  "version": "1.0.0",
+  "description": "web speech and giphy api to retrieve gifs with your voice.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksavietta/gif_speak.git"
+  },
+  "keywords": [
+    "speech",
+    "recognition",
+    "giphy",
+    "gif"
+  ],
+  "author": "Kelly J Savietta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksavietta/gif_speak/issues"
+  },
+  "homepage": "https://github.com/ksavietta/gif_speak#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}
